@@ -1,0 +1,15 @@
+---
+layout: post
+title: Who we are
+---
+
+Hi!
+
+We're the Smart Flanders team for open Summer of Code 2018 and we have only one purpose: _making Flanders smart again!_
+Our team consists of only three people: 
+
+  - [Lieselot Geirnaert](https://github.com/LieselotGeirnaert)
+  - [Thibault Lesuisse](https://github.com/ThibaultLesuisse)
+  - [Dylan Van Assche](https://www.github.com/DylanVanAssche)
+  
+Within the next weeks we will keep a blog about our problems and solution that we faced in the world of Linked Open Data.
