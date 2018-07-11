@@ -25,9 +25,7 @@ A resource can be anything:
 
 URI's are splitted up in several parts. You can only generate unique URI's since only one person of organisation has access to each part of the URI.
 
-```
-https://basisregisters.vlaanderen.be/api/v1/gebouwen/19624094
-```
+`https://basisregisters.vlaanderen.be/api/v1/gebouwen/19624094`
 
 If you look at this URI you can see that only the webmaster of `basisregisters.vlaanderen.be` can generate unique identifiers for `gebouwen`.
 Every part of the URI has it's own organisation that manages the domain. Only the people behind `.be` can create `vlaanderen.be` nobody else!
