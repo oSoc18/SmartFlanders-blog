@@ -31,8 +31,6 @@ You can search for the vocabulary you're looking for on these websites and they 
 For example, the building address described by the [Flemish OSLO vocubulary](https://data.vlaanderen.be/ns/adres):
 I summarized the text in English, the full description is available in the vocabulary in Dutch.
 
-|       Type        |                                          Class                                            |
-| ----------------- | ----------------------------------------------------------------------------------------- |
 |       URI         | http://data.vlaanderen.be/ns/adres#Adres                                                  |
 | Specialisation of | http://www.w3.org/2000/01/rdf-schema#Resource                                             |
 |    Definition     | Information that allow us to define in an unque way to street, number, ... of a building. | 
