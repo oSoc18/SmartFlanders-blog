@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Missing URI's 
+title: Missing URIs 
 ---
 
 ## ID'ing is a problem
@@ -12,9 +12,9 @@ Within that specific dataset the identifier will be unique however, if you combi
 This is a big problem! It's impossible now to identify a piece of data in an unique way. For example, if two people have the same social security number 
 how can you be sure that you are sending the right taxes envelope to the right person?
 
-## URI's are the solution
+## URIs are the solution
 
-### What are URI's?
+### What are URIs?
 
 URI (Uniform Resource Locator) is way to indicate the location of a resource.
 A resource can be anything:
@@ -23,7 +23,7 @@ A resource can be anything:
 - A door
 - ...
 
-URI's are splitted up in several parts. You can only generate unique URI's since only one person of organisation has access to each part of the URI.
+URIs are splitted up in several parts. You can only generate unique URIs since only one person of organisation has access to each part of the URI.
 
 `https://basisregisters.vlaanderen.be/api/v1/gebouwen/19624094`
 
