@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example: accessibility of public toilets 
+title: Accessibility of public toilets 
 ---
 
 ## The current situation
