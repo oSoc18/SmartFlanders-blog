@@ -12,7 +12,7 @@ If you look today at all the data that's available on the Internet you will come
 - Everyone has it's own vocabulary
 -  ...
 
-THe point here is simple: no standards are available to structure your dataset to achieve interaction with other datasets!
+The point here is simple: no standards are available to structure your dataset to achieve interaction with other datasets!
 
 ## How we tried to tackle this problem
 
