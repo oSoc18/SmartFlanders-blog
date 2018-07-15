@@ -24,7 +24,7 @@ It provides also some insight in the quality of the data, if the data is up to d
 ## Publishing Linked Open Data catalogues
 
 We, the Smart Flanders team, want to publish the accessibility data of buildings in the centre cities of Flanders as a Proof-Of-Concept.
-Once you have your vocabulary ready, you can publish your Linked Open Data (see our [previous post](https://osoc18.github.io/SmartFlanders-blog/Public-Toilets)).
+Once you have your vocabulary ready, you can publish your Linked Open Data (see our [previous post](https://osoc18.github.io/SmartFlanders-blog/Example-Public-Toilets/)).
 There's a small issue: How are those Linked Open Data fragments linked to each other? A building catalogue!
 
 ![Linked Open Data catalogues](../images/DataPortal2.jpg)
