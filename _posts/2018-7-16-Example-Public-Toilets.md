@@ -46,7 +46,7 @@ The links above illustrate perfectly the current problem as we mentioned above:
 To keep this example simple we will describe the first 3 things, more can be added later on.
 We will use [JSON-LD](https://json-ld.org/) to describe to public toilet. The reason for this is pretty simple: Google, Bing, ... support this out-of-the-box. When you use one of these search engines they will show you show you some information already in the search results using JSON-LD. If you want to have some help to correctly write JSON-LD, you can use their [JSON-LD playground](https://json-ld.org/playground/).
 
-The address and building registries are managed by the Flemish goverment in the [CRAP database](https://basisregisters.vlaanderen.be/api/swagger/ui/index#/). There's no need to create your own vocabulary to describe the building or the address, it's already available with the correct URI (You can find more information about URI and why they are important [here](https://osoc18.github.io/SmartFlanders-blog/Missing-URI/)).
+The address and building registries are managed by the Flemish goverment in the [CRAB database](https://basisregisters.vlaanderen.be/api/swagger/ui/index#/). There's no need to create your own vocabulary to describe the building or the address, it's already available with the correct URI (You can find more information about URI and why they are important [here](https://osoc18.github.io/SmartFlanders-blog/Missing-URI/)).
 
 ```
 {
@@ -75,13 +75,13 @@ The address and building registries are managed by the Flemish goverment in the 
 }
 ```
 
-### Let's look up the building URI and address URI in the CRAP database:
+### Let's look up the building URI and address URI in the CRAB database:
 
 #### Address
 
 **/v{version}/adressen** enter the city, street name and number of the address. After clicking 'Try it out!' you will find the address URI under `adressen[{addressNumber}].identificator.id`, the address ID is shown in the `adressen[{addressNumber}].indentificator.objectId` property in the JSON response. If a building has multiple numbers then you need to add multiple address identifiers!
 
-![CRAP database addresses](../images/CRAP1.png)
+![CRAB database addresses](../images/CRAP1.png)
 
 JSON answer:
 
@@ -116,7 +116,7 @@ The address objectID = *3201926*.
 
 **/v{version}/gebouweenheden** reuse the address identifier to identify the building unit. Add the `objectId` from the address JSON response to the `request.adresObjectId` field and fire up the request. The building unit URI associated with the address can be found under `gebouweenheden[{buildingUnitNumber}].identificator.id`, ID under `gebouweenheden[{buildingUnitNumber}].identificator.objectId`.
 
-![CRAP database building units](../images/CRAP2.png)
+![CRAB database building units](../images/CRAP2.png)
 
 JSON answer:
 
@@ -143,7 +143,7 @@ The building unit ID = *6923391*.
 
 **/v{version}/gebouweenheden/{ObjectID}** using the building unit ID we can retrieve the information about the building unit and learn more about the building itself. The building ID can found under `gebouw.objectId`. The URI of the building is available in the property: `gebouw.detail`.
 
-![CRAP database building unit and building ID](../images/CRAP3.png)
+![CRAB database building unit and building ID](../images/CRAP3.png)
 
 JSON answer:
 
