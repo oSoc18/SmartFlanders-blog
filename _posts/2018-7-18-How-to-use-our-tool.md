@@ -1,12 +1,12 @@
 ---
 layout: post
-title: How to use our tool? 
+title: How to use our tool?
 ---
 
 Using the stuff of somebody else might be a challenge if there's no documentation around.
-This blogpost is trying to explain the workflow of the Smart Flanders tool we're building to help the civil servant to publish it's data as Linked Open Data in a good way.
+This blog post is trying to explain the workflow of the Smart Flanders tool we're building to help the civil servant to publish its data as Linked Open Data in a good way.
 
-## Let the games begin! 
+## Let the games begin!
 
 First things first: get a cup of coffee, relax a bit and then go to our website where we host our tool: [smartflanders.ilabt.imec.be](http://smartflanders.ilabt.imec.be).
 
