@@ -16,12 +16,16 @@ how can you be sure that you are sending the right taxes envelope to the right p
 
 ### What are URIs?
 
-URI (Uniform Resource Locator) is way to indicate the location of a resource.
+URI (Uniform Resource Identificator) is way to indicate the location of a resource.
 A resource can be anything:
 
 - A person
 - A door
+- A plant
+- An elevator
 - ...
+
+Basically, an URI identifies something you can touch in the real world. It's likes the social security number on your eID. You read more about URIs [here](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier).
 
 URIs are splitted up in several parts. You can only generate unique URIs since only one person of organisation has access to each part of the URI.
 
