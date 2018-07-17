@@ -37,3 +37,4 @@ The Dienst Toerisme of the city of Mechelen is located in the Hallestraat 2-4-6 
 This isn't the case when you look up the Hallestraat 6, CRAB doesn't know it but it's really existing in the real world. As you can see on the map, the number 4 is displayed 2 times, a mistake in the CRAB database.
 
 We contacted the responsible organisation behind the CRAB database to fix this issue. Probably a miscommunication between several organisations.
+
