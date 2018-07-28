@@ -69,8 +69,8 @@ The address and building registries are managed by the Flemish government in the
     "@type": "http://www.w3.org/ns/locn#Address",
     "http://www.w3.org/2003/01/geo/wgs84_pos#location": {
       "@type": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
-      "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 50.87883800256356,
-      "http://www.w3.org/2003/01/geo/wgs84_pos#long": 4.6982222477899604
+      "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 51.0236222,
+      "http://www.w3.org/2003/01/geo/wgs84_pos#long": 4.4767404
     }
   },
   "schema:openingHours": ["Tu 10:30-19:30", "We 10:30-17:00", "Th 10:30-19:30", "Fr 10:30-17:00", "Sa 10:00-16:00"],
