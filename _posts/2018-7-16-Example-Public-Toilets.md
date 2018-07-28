@@ -51,20 +51,30 @@ The address and building registries are managed by the Flemish government in the
 ```
 {
   "@context": {
-    "name": "http://purl.org/dc/terms/title",
-    "buildingRegistry": "http://data.vlaanderen.be/id/gebouw/",
-    "addressRegistry": "http://data.vlaanderen.be/doc/adres",
+    "gebouwenRegister": "http://data.vlaanderen.be/id/gebouw/",
+    "adressenRegister": "https://data.vlaanderen.be/id/adres/",
+    "gebouw": "http://data.vlaanderen.be/ns/gebouw#",
+    "schema": "http:/schema.org",
+    "locn": "http://www.w3.org/ns/locn#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
     "description": "http://purl.org/dc/terms/description",
-    "openingHours": "http://schema.org/openingHours",
-    "contact": "http://schema.org/contactPoint",
-    "locn": "http://www.w3.org/ns/locn#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@id": "buildingRegistry:6921454",
-  "locn:address": "addressRegistry:3201926",
-  "name": "Public toilet library",
+  "@id": "gebouw:6921454",
+  "@type": "gebouw:Gebouw",
+  "schema:name": "Public toilet library",
   "description": "The public toilet of the public library of Mechelen",
-  "openingHours": ["Tu 10:30-19:30", "We 10:30-17:00", "Th 10:30-19:30", "Fr 10:30-17:00", "Sa 10:00-16:00"],
-  "contact" : [
+  "gebouw:Gebouw.adres": {
+    "@id": "http://data.vlaanderen.be/id/adres/3201926",
+    "@type": "http://www.w3.org/ns/locn#Address",
+    "http://www.w3.org/2003/01/geo/wgs84_pos#location": {
+      "@type": "http://www.w3.org/2003/01/geo/wgs84_pos#Point",
+      "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 50.87883800256356,
+      "http://www.w3.org/2003/01/geo/wgs84_pos#long": 4.6982222477899604
+    }
+  },
+  "schema:openingHours": ["Tu 10:30-19:30", "We 10:30-17:00", "Th 10:30-19:30", "Fr 10:30-17:00", "Sa 10:00-16:00"],
+  "schema:contactPoint" : [
     {
       "@type": "ContactPoint",
       "telephone": "015 40 44 70",
