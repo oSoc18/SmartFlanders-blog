@@ -7,7 +7,8 @@ To describe your data you can use something called: `vocabulary`, but where do y
 
 ## The World Wide Web
 
-There are several parties on the World Wide Web which already publish some vocabulary on their website. 
+There are several parties on the World Wide Web which already publish some vocabulary with a nice overview on their website.
+Vocabulary is most of the time published as a separate Turtle file (or any other format like JSON-LD) while they provide a human readable format (the specification of the vocabulary).
 You can reuse them in your own Linked Open Data. If you do that, others who already use the same vocabulary 
 can easily read your data and more important: understand your data.
 
